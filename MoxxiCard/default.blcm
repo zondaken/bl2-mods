@@ -1,0 +1,121 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+		<profiles>
+			<profile name="default" current="true"/>
+		</profiles>
+	</head>
+	<body>
+		<category name="root">
+			<category name="Template">
+				<comment># Grog Nozzle</comment>
+				<comment># Crit</comment>
+				<comment># Kitten</comment>
+				<comment># Slow Hand</comment>
+				<comment># Hail</comment>
+				<comment># Creamer</comment>
+				<comment># Rubi</comment>
+				<comment># Bad Touch</comment>
+				<comment># Good Touch</comment>
+				<comment># Heart Breaker</comment>
+				<comment># Chere-Amie</comment>
+			</category>
+			<category name="Add CustomPresentation's">
+				<comment># Grog Nozzle</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle' CustomPresentations (AttributePresentationDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle:CustomAttributePresentationDefinition_0')</code>
+				<comment># Crit</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit' CustomPresentations (AttributePresentationDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit:CustomAttributePresentationDefinition_0')</code>
+				<comment># Kitten</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten' CustomPresentations (AttributePresentationDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten:CustomAttributePresentationDefinition_0')</code>
+				<comment># Slow Hand</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand' CustomPresentations (AttributePresentationDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand:CustomAttributePresentationDefinition_0')</code>
+				<comment># Hail</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail' CustomPresentations (AttributePresentationDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail:CustomAttributePresentationDefinition_0')</code>
+				<comment># Creamer</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer' CustomPresentations (AttributePresentationDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer:CustomAttributePresentationDefinition_0')</code>
+				<comment># Rubi</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi' CustomPresentations (AttributePresentationDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi:CustomAttributePresentationDefinition_0')</code>
+				<comment># Bad Touch</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch' CustomPresentations (AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch:CustomAttributePresentationDefinition_0')</code>
+				<comment># Good Touch</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch' CustomPresentations (AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch:CustomAttributePresentationDefinition_0')</code>
+				<comment># Heart Breaker</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker' CustomPresentations (AttributePresentationDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker:CustomAttributePresentationDefinition_0')</code>
+				<comment># Chere-Amie</comment>
+				<code profiles="default">set WeaponPartDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie' CustomPresentations (AttributePresentationDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie:CustomAttributePresentationDefinition_0')</code>
+			</category>
+			<category name="Edit AttributePresentationDefinition">
+				<comment># Grog Nozzle</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 65%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Crit</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2.5%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Kitten</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 4%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Slow Hand</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 3.5%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Hail</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 3%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Creamer</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Rubi</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 12%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Bad Touch</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Good Touch</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2.5%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Heart Breaker</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+				<comment># Chere-Amie</comment>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%</code>
+				<code profiles="default">set AttributePresentationDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie:CustomAttributePresentationDefinition_0' BasePriority 0.3</code>
+			</category>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set WeaponPartDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle' CustomPresentations (AttributePresentationDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit' CustomPresentations (AttributePresentationDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten' CustomPresentations (AttributePresentationDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand' CustomPresentations (AttributePresentationDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail' CustomPresentations (AttributePresentationDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer' CustomPresentations (AttributePresentationDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi' CustomPresentations (AttributePresentationDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch' CustomPresentations (AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch' CustomPresentations (AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker' CustomPresentations (AttributePresentationDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker:CustomAttributePresentationDefinition_0')
+set WeaponPartDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie' CustomPresentations (AttributePresentationDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie:CustomAttributePresentationDefinition_0')
+set AttributePresentationDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 65%
+set AttributePresentationDefinition'GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2.5%
+set AttributePresentationDefinition'GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 4%
+set AttributePresentationDefinition'GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 3.5%
+set AttributePresentationDefinition'GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 3%
+set AttributePresentationDefinition'GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%
+set AttributePresentationDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 12%
+set AttributePresentationDefinition'GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%
+set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2.5%
+set AttributePresentationDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%
+set AttributePresentationDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker:CustomAttributePresentationDefinition_0' BasePriority 0.3
+set AttributePresentationDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie:CustomAttributePresentationDefinition_0' NoConstraintText [health]Life Steal[-health]: 2%
+set AttributePresentationDefinition'GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie:CustomAttributePresentationDefinition_0' BasePriority 0.3
+
