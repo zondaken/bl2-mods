@@ -1,6 +1,7 @@
 # MoxxiCard
-## What this mod does?
-This SDK mod is a pure QoL rework of all weapon cards of Moxxi weapons (Grog, Rubi etc.) and adds an information on how big the actual life steal is.
+## Why could you need this mod?
+We all had it once, I assume. We know "oh, this is a Moxxi Weapon but how much life steal does it actually have".
+For those cases this mod got created to make it display on the card how much life steal it has.
 
 ## Example
 ![](https://i.imgur.com/hz3aLbH.png)
