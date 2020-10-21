@@ -1,7 +1,8 @@
 # MoxxiCard
 ## Why could you need this mod?
 We all had it once, I assume. We know "oh, this is a Moxxi Weapon but how much life steal does it actually have".
-For those cases this mod got created to make it display on the card how much life steal it has.
+For those cases this QoL mod got created to make it display on the card how much life steal it has.
+Pretty simple right? Yes, it is.
 
 ## Example
 ![](https://i.imgur.com/hz3aLbH.png)
