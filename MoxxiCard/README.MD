@@ -14,3 +14,6 @@ Prerequisites:
 
 Installation:
 - Just drop the MoxxiCard folder in Borderlands 2\Binaries\Win32\Mods\Constructor
+
+## Re-usage of this mod
+If you wanna use this in something else, just mention that I'm the author and everything is fine...
