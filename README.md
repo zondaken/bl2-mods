@@ -1,3 +1,3 @@
-# bl2-sdk-mods
+# bl2-mods
 
 Test README
